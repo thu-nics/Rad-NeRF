@@ -1,0 +1,16 @@
+einops==0.4.1
+kornia==0.6.5
+pytorch-lightning==1.7.7
+matplotlib==3.5.2
+opencv-python==4.6.0.66
+imageio
+imageio-ffmpeg
+jupyter
+scipy
+pymcubes
+trimesh
+dearpygui
+
+# install torch-scatter following https://github.com/rusty1s/pytorch_scatter#installation
+# install tinycudann following https://github.com/NVlabs/tiny-cuda-nn#pytorch-extension
+# install apex following https://github.com/NVIDIA/apex#linux

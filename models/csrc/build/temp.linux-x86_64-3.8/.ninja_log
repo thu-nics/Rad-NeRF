@@ -1,0 +1,6 @@
+# ninja log v5
+3	22665	1697075238	/home/nfs_data/guold1107/proj-nerf/moe_nerf/models/csrc/build/temp.linux-x86_64-3.8/binding.o	dd0ec1d5a9c857e7
+4	39874	1697075255	/home/nfs_data/guold1107/proj-nerf/moe_nerf/models/csrc/build/temp.linux-x86_64-3.8/intersection.o	2a46b09d74622dad
+5	40775	1697075256	/home/nfs_data/guold1107/proj-nerf/moe_nerf/models/csrc/build/temp.linux-x86_64-3.8/raymarching.o	d3f8373f4177e103
+5	44507	1697075260	/home/nfs_data/guold1107/proj-nerf/moe_nerf/models/csrc/build/temp.linux-x86_64-3.8/volumerendering.o	3c3a1f258809e384
+5	47107	1697075262	/home/nfs_data/guold1107/proj-nerf/moe_nerf/models/csrc/build/temp.linux-x86_64-3.8/losses.o	e9c2fc69e9b07a70

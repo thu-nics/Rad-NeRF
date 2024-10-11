@@ -1,0 +1,6 @@
+# ninja log v5
+1	18368	1706009172726117456	/share/guolidong-nfs/proj-nerf/gml-nerf/models/csrc/build/temp.linux-x86_64-cpython-39/binding.o	32a000c4deff225
+2	54471	1706009208841171027	/share/guolidong-nfs/proj-nerf/gml-nerf/models/csrc/build/temp.linux-x86_64-cpython-39/raymarching.o	dafc65d02fe9ce8b
+1	54629	1706009209001166836	/share/guolidong-nfs/proj-nerf/gml-nerf/models/csrc/build/temp.linux-x86_64-cpython-39/intersection.o	a3e7cd726be0920a
+3	59168	1706009213541047898	/share/guolidong-nfs/proj-nerf/gml-nerf/models/csrc/build/temp.linux-x86_64-cpython-39/volumerendering.o	1749f9859daf6ea3
+2	64346	1706009218708912517	/share/guolidong-nfs/proj-nerf/gml-nerf/models/csrc/build/temp.linux-x86_64-cpython-39/losses.o	34c6f29544281dc3

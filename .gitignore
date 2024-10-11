@@ -1,0 +1,12 @@
+/ckpts
+/logs
+/results
+/render_results
+/data
+/analysis
+/apex
+*train_other.py
+*render.py
+*test.py
+*draw.py
+
