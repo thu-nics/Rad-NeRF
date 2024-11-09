@@ -21,10 +21,6 @@ If you find this repository or paper useful, you can cite
 
 <img src="./assets/road.gif" width="">
 
-<img src="./assets/playground.gif" width="">
-
-<img src="./assets/m60.gif" width="">
-
 <img src="./assets/object.jpg" width="">
 
 <img src="./assets/indoor.jpg" width="">
