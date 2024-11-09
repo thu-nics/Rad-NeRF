@@ -1,10 +1,11 @@
 # Rad-NeRF: Ray-decoupled Training of Neural Radiance Field
-**[[NeurIPS 2024]](https://openreview.net/forum?id=nBrnfYeKf9)** **[[Code]](https://github.com/thu-nics/Rad-NeRF)** **[[Video]]()**
 
+**[[NeurIPS 2024]](https://openreview.net/forum?id=nBrnfYeKf9)** **[[Code]](https://github.com/thu-nics/Rad-NeRF)** **[[Video]]()**
 
 In order to make NeRF better at rendering complex scenes, we delve into the reason for the unsatisfactory performance of NeRF in complex scenes and conjecture that it comes from interference in the training process. Due to occlusions in complex scenes, a 3D point may be invisible to some rays. On such a point, training with those rays that do not contain valid information about the point might interfere with the NeRF training. Based on the above intuition, we decouple the training process of NeRF in the ray dimension softly and propose a **Ra**y-**d**ecoupled Training Framework for neural rendering (**Rad-NeRF**). Specifically, we construct an ensemble of sub-NeRFs and train a soft gate module to assign the gating scores to these sub-NeRFs based on specific rays. The gate module is jointly optimized with the sub-NeRF ensemble to learn the preference of sub-NeRFs for different rays automatically. Furthermore, we introduce depth-based mutual learning to enhance the rendering consistency among multiple sub-NeRFs and mitigate the depth ambiguity. Experiments on five datasets demonstrate that Rad- NeRF can enhance the rendering performance across a wide range of scene types compared with existing single-NeRF and multi-NeRF methods. With only 0.2% extra parameters, Rad-NeRF improves rendering performance by up to 1.5dB.
 
 If you find this repository or paper useful, you can cite
+
 ```
 @inproceedings{
   guo2024radnerf,
@@ -18,13 +19,30 @@ If you find this repository or paper useful, you can cite
 
 ## Representative Results
 
+<img src="./assets/road.gif" width="">
+
+<img src="./assets/playground.gif" width="">
+
+<img src="./assets/m60.gif" width="">
+
+<img src="./assets/object.jpg" width="">
+
+<img src="./assets/indoor.jpg" width="">
+
+<img src="./assets/dml.jpg" width="">
+
+| ![](./assets/scalability.jpg) | ![](./assets/convergence.jpg) |
+| --------------------------- | --------------------------- |
 
 ## Installation
+
 We run experiments on:
+
 * OS: Ubuntu 20.04
 * GPU and Library: NVIDIA GeForce RTX 3090, CUDA 11.8 (might also work with previous version)
 
 Follow the following steps to setup the software environment:
+
 * Create a new python environment
 
   ```
